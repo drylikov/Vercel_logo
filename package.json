@@ -1,0 +1,17 @@
+{
+  "name": "Vercel logo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server --files './css/*.css, *.html, !node_modules/**/*'",
+    "watch": "node-sass --watch ./sass/main.scss ./css/main.css --output-style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "node-sass": "^9.0.0"
+  }
+}
